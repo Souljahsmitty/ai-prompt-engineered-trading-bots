@@ -543,13 +543,30 @@
         </div>
     </section>
 
-    <section id="contact" class="section-white" style="text-align: center;">
+    <section id="contact" class="section-white">
         <div class="container">
-            <h2>Ready to Automate the Future?</h2>
-            <p style="font-size: 1.25rem; color: var(--gray); margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
-                Currently open to AI Engineering, Automation, and Software Engineering roles in Laramie, Fort Collins, or Remote.
-            </p>
-            <a href="mailto:adam.k.smith13@gmail.com" class="btn btn-primary">📧 Email Me Now</a>
+            <h2>Let's Build Something Together</h2>
+            <div style="max-width: 600px; margin: 0 auto;">
+                <p style="text-align: center; font-size: 1.1rem; color: var(--gray); margin-bottom: 40px;">
+                    Currently open to AI Engineering, Automation, and Software Engineering roles. Fill out the form below or reach out directly via email.
+                </p>
+                
+                <form action="https://formspree.io/f/adam.k.smith13@gmail.com" method="POST" style="background: white; padding: 32px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--dark);">Name</label>
+                        <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 1rem;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--dark);">Email</label>
+                        <input type="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 1rem;">
+                    </div>
+                    <div style="margin-bottom: 24px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--dark);">Message</label>
+                        <textarea name="message" required style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 1rem; min-height: 120px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">🚀 Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
